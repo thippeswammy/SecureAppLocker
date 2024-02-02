@@ -17,27 +17,9 @@ public class Settings {
             Connecting c3 = new Calling3();
             c.doSomething(c3);
         }
-        if (name.equals("")) {
+        if (name.isEmpty()) {
             Connecting c4 = new Calling4();
             c.doSomething(c4);
-        }
-        if (name.equals("")) {
-
-        }
-        if (name.equals("")) {
-
-        }
-        if (name.equals("")) {
-
-        }
-        if (name.equals("")) {
-
-        }
-        if (name.equals("")) {
-
-        }
-        if (name.equals("")) {
-
         }
     }
 }
